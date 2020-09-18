@@ -1,0 +1,1697 @@
+{
+    "__type__": "Deck",
+    "activeTags": [
+        "Source::Chartrand::Mathematical_Proofs_A_Transition_To_Advanced_Mathematics::01_Sets::06_Cartesian_Products_Of_Sets"
+    ],
+    "children": [],
+    "crowdanki_uuid": "f9b0ffd2-f954-11ea-9142-5cf370782609",
+    "deck_config_uuid": "f9b0ffd3-f954-11ea-81dd-5cf370782609",
+    "deck_configurations": [
+        {
+            "DisableFW": 0,
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "f9b0ffd3-f954-11ea-81dd-5cf370782609",
+            "dyn": false,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 0,
+                "minInt": 1,
+                "mult": 0.75
+            },
+            "maxTaken": 3600,
+            "name": "Main",
+            "new": {
+                "LBEIMinAfter": -1,
+                "LBEIMinBefore": -1,
+                "LBGIMinAfter": -1,
+                "LBGIMinBefore": -1,
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 9999,
+                "separate": true
+            },
+            "replayq": true,
+            "rev": {
+                "bury": true,
+                "ease4": 1.3,
+                "fuzz": 0.05,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 99999,
+                "minSpace": 1,
+                "perDay": 9999
+            },
+            "timer": 1
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 0,
+    "extendRev": 0,
+    "inactiveTags": [],
+    "media_files": [
+        "626d1c7cf155ffff8f72475d68ac15fe4da4eb75.jpg"
+    ],
+    "mid": 1522166845944,
+    "name": "00 Main",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "3ae74d95-ab71-11ea-9e11-b1d281d697cf",
+            "css": ".card {\n font-family: \"Computer Modern\";\n font-size: 150%;\n text-align: left;\n color: black;\n background-color: white;\n}\n\n.cloze {\n font-family: \"Computer Modern\";\n font-size: 100%;\n color: black;\n}\n\n.night_mode .cloze {\n font-family: \"Computer Modern\";\n font-size: 100%;\n color: white;\n}\n\n.night_mode img {\n  filter: invert(100%);\n}\n\n.hint {\n font-family: \"Computer Modern\";\n font-size: 100%;\n text-align: left;\n color: black;\n background-color: white;\n}\n\n.night_mode .hint {\n font-family: \"Computer Modern\";\n font-size: 100%;\n text-align: left;\n color: white;\n background-color: black;\n}\n\n.card.night_mode { \n  background-color: black;\n}",
+            "flds": [
+                {
+                    "font": "MS Shell Dlg 2",
+                    "media": [],
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": true
+                },
+                {
+                    "font": "MS Shell Dlg 2",
+                    "media": [],
+                    "name": "Front Question",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "MS Shell Dlg 2",
+                    "media": [],
+                    "name": "Instruction",
+                    "ord": 2,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": true
+                },
+                {
+                    "font": "MS Shell Dlg 2",
+                    "media": [],
+                    "name": "Context",
+                    "ord": 3,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": true
+                },
+                {
+                    "font": "MS Shell Dlg 2",
+                    "media": [],
+                    "name": "Number",
+                    "ord": 4,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": true
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Cloze-CrashHermit",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0,
+                        1,
+                        2,
+                        3
+                    ]
+                ]
+            ],
+            "sortf": 4,
+            "tags": [
+                "Category::Question",
+                "Delay::01",
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics"
+            ],
+            "tmpls": [
+                {
+                    "afmt": "<center><b>{{Context}}</b></center>\n<br>\n{{#Instruction}}\n{{Instruction}}\n<br>\n{{/Instruction}}\n{{#Front Question}}\n{{Front Question}}\n<br>\n{{/Front Question}}\n{{cloze:Front}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Cloze",
+                    "ord": 0,
+                    "qfmt": "<center><b>{{Context}}</b></center>\n<br>\n{{#Instruction}}\n{{Instruction}}\n<br>\n{{/Instruction}}\n{{#Front Question}}\n{{Front Question}}\n<br>\n{{/Front Question}}\n{{cloze:Front}}"
+                }
+            ],
+            "type": 1,
+            "vers": []
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "3ae74c5a-ab71-11ea-9e11-b1d281d697cf",
+            "css": ".card {\n font-family: \"Computer Modern\";\n font-size: 150%;\n text-align: left;\n color: black;\n background-color: white;\n}\n\n.night_mode img {\n  filter: invert(100%);\n}\n\nimg {\n  display: block;\n  margin-left: auto;\n  margin-right: auto\n}\n\n.hint {\n font-family: \"Computer Modern\";\n font-size: 150%;\n text-align: left;\n color: black;\n background-color: white;\n}\n\n.hint.night_mode {\n font-family: \"Computer Modern\";\n font-size: 150%;\n text-align: left;\n color: white;\n background-color: black;\n}\n\n.card.night_mode { \n  background-color: black;\n}\n\n.footer {\n  position: fixed;\n  left: 0;\n  bottom: 0;\n  width: 100%;\n  text-align: right;\n}\n\na:link, a:visited {\n  color: white;\n  text-align: center;\n  text-decoration: none;\n  display: inline-block;\n}",
+            "flds": [
+                {
+                    "font": "MS Shell Dlg 2",
+                    "media": [],
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": true
+                },
+                {
+                    "font": "MS Shell Dlg 2",
+                    "media": [],
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "MS Shell Dlg 2",
+                    "media": [],
+                    "name": "Instruction",
+                    "ord": 2,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": true
+                },
+                {
+                    "font": "MS Shell Dlg 2",
+                    "media": [],
+                    "name": "Context",
+                    "ord": 3,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": true
+                },
+                {
+                    "font": "MS Shell Dlg 2",
+                    "media": [],
+                    "name": "Number",
+                    "ord": 4,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": true
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": true,
+            "name": "Basic-CrashHermit",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0,
+                        2,
+                        3
+                    ]
+                ]
+            ],
+            "sortf": 4,
+            "tags": [
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics",
+                "Delay::01",
+                "Category::Question"
+            ],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n<hr>\n{{Back}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Main Card",
+                    "ord": 0,
+                    "qfmt": "<center><b>{{Context}}</b></center>\n<br>\n{{#Instruction}}\n{{Instruction}}\n<br><br>\n{{/Instruction}}\n{{Front}}"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::Economics::Expression}}: {{c2::The study of how humans make choices under conditions of scarcity.::Definition}}",
+                "",
+                "",
+                "Introduction to Economics",
+                ""
+            ],
+            "guid": "t`?1Ae/=fX",
+            "note_model_uuid": "3ae74d95-ab71-11ea-9e11-b1d281d697cf",
+            "tags": [
+                "Category::Key_Terms",
+                "Delay::01",
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::Scarcity::Expression}}: {{c2::When human wants for goods and services exceed the available supply.::Definition}}",
+                "",
+                "",
+                "Introduction to Economics",
+                ""
+            ],
+            "guid": "P&XBiN$E{_",
+            "note_model_uuid": "3ae74d95-ab71-11ea-9e11-b1d281d697cf",
+            "tags": [
+                "Category::Key_Terms",
+                "Delay::01",
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::Division of labor::Expression}}: {{c2::The way in which different workers divide required tasks to produce a good or service.::Definition}}",
+                "",
+                "",
+                "Introduction to Economics",
+                ""
+            ],
+            "guid": "HMk$L8(^L,",
+            "note_model_uuid": "3ae74d95-ab71-11ea-9e11-b1d281d697cf",
+            "tags": [
+                "Category::Key_Terms",
+                "Delay::01",
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::Specialization::Expression}}: {{c2::When workers or firms focus on particular tasks for which they are well-suited within the overall production process.::Definition}}",
+                "",
+                "",
+                "Introduction to Economics",
+                ""
+            ],
+            "guid": "JcU9N66CLS",
+            "note_model_uuid": "3ae74d95-ab71-11ea-9e11-b1d281d697cf",
+            "tags": [
+                "Category::Key_Terms",
+                "Delay::01",
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::Economies of scale::Expression}}:&nbsp;{{c2::When the average cost of producing each individual unit declines as total output increases.::Definition}}",
+                "",
+                "",
+                "Introduction to Economics",
+                ""
+            ],
+            "guid": "kf%41rz(D+",
+            "note_model_uuid": "3ae74d95-ab71-11ea-9e11-b1d281d697cf",
+            "tags": [
+                "Category::Key_Terms",
+                "Delay::01",
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::Microeconomics::Expression}}: {{c2::The branch of economics that focuses on actions of particular agents within the economy, like households, workers, and business firms.::Definition}}",
+                "",
+                "",
+                "Introduction to Economics",
+                ""
+            ],
+            "guid": "wc,]]Mt(Au",
+            "note_model_uuid": "3ae74d95-ab71-11ea-9e11-b1d281d697cf",
+            "tags": [
+                "Category::Key_Terms",
+                "Delay::01",
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::Macroeconomics::Expression}}:&nbsp;{{c2::The branch of economics that focuses on broad issues such as growth, unemployment, inflation, and trade balance.::Definition}}",
+                "",
+                "",
+                "Introduction to Economics",
+                ""
+            ],
+            "guid": "EBCTD1Q{@K",
+            "note_model_uuid": "3ae74d95-ab71-11ea-9e11-b1d281d697cf",
+            "tags": [
+                "Category::Key_Terms",
+                "Delay::01",
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::Monetary policy::Expression}}: {{c2::Policy that involves altering the level of interest rates, the availability of credit in the economy, and the extent of borrowing.::Definition}}",
+                "",
+                "",
+                "Introduction to Economics",
+                ""
+            ],
+            "guid": "r(>>_xbmqj",
+            "note_model_uuid": "3ae74d95-ab71-11ea-9e11-b1d281d697cf",
+            "tags": [
+                "Category::Key_Terms",
+                "Delay::01",
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::Fiscal policy::Expression}}:&nbsp;{{c2::Economic policies that involve government spending and taxes.::Definition}}",
+                "",
+                "",
+                "Introduction to Economics",
+                ""
+            ],
+            "guid": "i,Hb,Mt,Bs",
+            "note_model_uuid": "3ae74d95-ab71-11ea-9e11-b1d281d697cf",
+            "tags": [
+                "Category::Key_Terms",
+                "Delay::01",
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::Theory::Expression}}:&nbsp;{{c2::A simplified abstract representation of how two more variables interact with each other.::Definition}}",
+                "",
+                "",
+                "Introduction to Economics",
+                ""
+            ],
+            "guid": "bc;7cpJU$d",
+            "note_model_uuid": "3ae74d95-ab71-11ea-9e11-b1d281d697cf",
+            "tags": [
+                "Category::Key_Terms",
+                "Delay::01",
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::Circular flow diagram::Expression}}: {{c2::A diagram that views the economy as consisting of households and firms interacting in a goods and services market and a labor market.::Definition}}",
+                "",
+                "",
+                "Introduction to Economics",
+                ""
+            ],
+            "guid": "qcN*fGRT!O",
+            "note_model_uuid": "3ae74d95-ab71-11ea-9e11-b1d281d697cf",
+            "tags": [
+                "Category::Key_Terms",
+                "Delay::01",
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::Goods and services market::Expression}}:&nbsp;{{c2::A market in which firms are sellers of what they produce and households are buyers.::Definition}}",
+                "",
+                "",
+                "Introduction to Economics",
+                ""
+            ],
+            "guid": "uP?bm1jBZ:",
+            "note_model_uuid": "3ae74d95-ab71-11ea-9e11-b1d281d697cf",
+            "tags": [
+                "Category::Key_Terms",
+                "Delay::01",
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::Labor market::Expression}}: {{c2::The market in which households sell their labor as workers to business firms or other employers.::Definition}}",
+                "",
+                "",
+                "Introduction to Economics",
+                ""
+            ],
+            "guid": "r&i)HpOO~,",
+            "note_model_uuid": "3ae74d95-ab71-11ea-9e11-b1d281d697cf",
+            "tags": [
+                "Category::Key_Terms",
+                "Delay::01",
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::Traditional economy::Expression}}: {{c2::Typically an agricultural economy where things are done the same as they have always been done.::Definition}}",
+                "",
+                "",
+                "Introduction to Economics",
+                ""
+            ],
+            "guid": "k#xxMss1jY",
+            "note_model_uuid": "3ae74d95-ab71-11ea-9e11-b1d281d697cf",
+            "tags": [
+                "Category::Key_Terms",
+                "Delay::01",
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::Command economy::Expression}}:&nbsp;{{c2::An economy where economic decisions are passed down from government authority and where the government owns the resources.::Definition}}",
+                "",
+                "",
+                "Introduction to Economics",
+                ""
+            ],
+            "guid": "M6QkjU.`X)",
+            "note_model_uuid": "3ae74d95-ab71-11ea-9e11-b1d281d697cf",
+            "tags": [
+                "Category::Key_Terms",
+                "Delay::01",
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::Market::Expression}}: {{c2::Interaction between potential buyers and sellers; a combination of demand and supply.::Definition}}",
+                "",
+                "",
+                "Introduction to Economics",
+                ""
+            ],
+            "guid": "l<T.hUywID",
+            "note_model_uuid": "3ae74d95-ab71-11ea-9e11-b1d281d697cf",
+            "tags": [
+                "Category::Key_Terms",
+                "Delay::01",
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::Market economy::Expression}}:&nbsp;{{c2::An economy where economic decisions are decentralized, private individuals own resources, and businesses supply goods and services based on demand.::Definition}}",
+                "",
+                "",
+                "Introduction to Economics",
+                ""
+            ],
+            "guid": "C%l}lmx+Hi",
+            "note_model_uuid": "3ae74d95-ab71-11ea-9e11-b1d281d697cf",
+            "tags": [
+                "Category::Key_Terms",
+                "Delay::01",
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::Private enterprise::Expression}}: {{c2::A system where private individuals or groups of private individuals own and operate the means of production (resources and businesses).::Definition}}",
+                "",
+                "",
+                "Introduction to Economics",
+                ""
+            ],
+            "guid": "t>W-uh%z=A",
+            "note_model_uuid": "3ae74d95-ab71-11ea-9e11-b1d281d697cf",
+            "tags": [
+                "Category::Key_Terms",
+                "Delay::01",
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::Underground economies::Expression}}: {{c2::A market where the buyers and sellers make transactions in violation of one or more government regulations.::Definition}}",
+                "",
+                "",
+                "Introduction to Economics",
+                ""
+            ],
+            "guid": "kFy?SsJs94",
+            "note_model_uuid": "3ae74d95-ab71-11ea-9e11-b1d281d697cf",
+            "tags": [
+                "Category::Key_Terms",
+                "Delay::01",
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::Globalization::Expression}}: {{c2::The trend in which buying and selling in markets have increasingly crossed national borders.::Definition}}",
+                "",
+                "",
+                "Introduction to Economics",
+                ""
+            ],
+            "guid": "EB$7Y.td7k",
+            "note_model_uuid": "3ae74d95-ab71-11ea-9e11-b1d281d697cf",
+            "tags": [
+                "Category::Key_Terms",
+                "Delay::01",
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::Exports::Expression}}: {{c2::Products (goods and services) made domestically and sold abroad.::Definition}}",
+                "",
+                "",
+                "Introduction to Economics",
+                ""
+            ],
+            "guid": "x6;psxLD#_",
+            "note_model_uuid": "3ae74d95-ab71-11ea-9e11-b1d281d697cf",
+            "tags": [
+                "Category::Key_Terms",
+                "Delay::01",
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::Imports::Expression}}: {{c2::Products (goods and services) made abroad and then sold domestically.::Definition}}",
+                "",
+                "",
+                "Introduction to Economics",
+                ""
+            ],
+            "guid": "E]/>/;_c8E",
+            "note_model_uuid": "3ae74d95-ab71-11ea-9e11-b1d281d697cf",
+            "tags": [
+                "Category::Key_Terms",
+                "Delay::01",
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::Gross domestic product (GDP)::Expression}}: {{c2::Measure of the size of total production in an economy.::Definition}}",
+                "",
+                "",
+                "Introduction to Economics",
+                ""
+            ],
+            "guid": "MoY#x3b&R3",
+            "note_model_uuid": "3ae74d95-ab71-11ea-9e11-b1d281d697cf",
+            "tags": [
+                "Category::Key_Terms",
+                "Delay::01",
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Residents of the town of Smithfield like to consume hams, but each ham requires 10 people to produce it and takes a month. If the town has a total of 100 people, what is the maximum amount of ham the residents can consume in a month?",
+                "<div>100 people / 10 people per ham = a maximum of 10 hams per month if all residents produce ham. Since consumption is limited by production, the maximum number of hams residents could consume per month is 10.</div>",
+                "",
+                "Introduction to Economics",
+                ""
+            ],
+            "guid": "b0kDnU00D<",
+            "note_model_uuid": "3ae74c5a-ab71-11ea-9e11-b1d281d697cf",
+            "tags": [
+                "Category::Exercise",
+                "Delay::01",
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "A consultant works for $200 per hour. She likes to eat vegetables, but is not very good at growing them. Why does it make more economic sense for her to spend her time at the consulting job and shop for her vegetables?",
+                "<div>She is very productive at her consulting job, but not very productive growing vegetables. Time spent consulting would produce far more income than it what she could save growing her vegetables using the same amount of time. So on purely economic grounds, it makes more sense for her to maximize her income by applying her labor to what she does best (i.e. specialization of labor).</div>",
+                "",
+                "Introduction to Economics",
+                ""
+            ],
+            "guid": "uN?oL%yl,1",
+            "note_model_uuid": "3ae74c5a-ab71-11ea-9e11-b1d281d697cf",
+            "tags": [
+                "Category::Exercise",
+                "Delay::01",
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "A computer systems engineer could paint his house, but it makes more sense for him to hire a painter to do it. Explain why.",
+                "<div>The engineer is better at computer science than at painting. Thus, his time is better spent working for pay at his job and paying a painter to paint his house. Of course, this assumes he does not paint his house for fun!</div>",
+                "",
+                "Introduction to Economics",
+                ""
+            ],
+            "guid": "mX7^w3tum.",
+            "note_model_uuid": "3ae74c5a-ab71-11ea-9e11-b1d281d697cf",
+            "tags": [
+                "Category::Exercise",
+                "Delay::01",
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div> <div>What would be another example of a “system” in the real world that could serve as a metaphor for micro and macroeconomics?</div></div>",
+                "<div>There are many physical systems that would work, for example, the study of planets (micro) in the solar system (macro), or solar systems (micro) in the galaxy (macro).</div>",
+                "",
+                "Introduction to Economics",
+                ""
+            ],
+            "guid": "Ly@nGWy7O5",
+            "note_model_uuid": "3ae74c5a-ab71-11ea-9e11-b1d281d697cf",
+            "tags": [
+                "Category::Exercise",
+                "Delay::01",
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div> <div>Suppose we extend the circular flow model to add imports and exports. Copy the circular flow diagram onto a sheet of paper and then add a foreign country as a third agent. Draw a rough sketch of the flows of imports, exports, and the payments for each on your diagram.</div></div>",
+                "<div>Draw a box outside the original circular flow to represent the foreign country. Draw an arrow from the foreign country to firms, to represents imports. Draw an arrow in the reverse direction representing payments for imports. Draw an arrow from firms to the foreign country to represent exports. Draw an arrow in the reverse direction to represent payments for imports.</div>",
+                "",
+                "Introduction to Economics",
+                ""
+            ],
+            "guid": "xC$m,<|v(e",
+            "note_model_uuid": "3ae74c5a-ab71-11ea-9e11-b1d281d697cf",
+            "tags": [
+                "Category::Exercise",
+                "Delay::01",
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div> <div>What is an example of a problem in the world today, not mentioned in the chapter, that has an economic dimension?</div></div>",
+                "<div>There are many such problems. Consider the AIDS epidemic. Why are so few AIDS patients in Africa and Southeast Asia treated with the same drugs that are effective in the United States and Europe? It is because neither those patients nor the countries in which they live have the resources to purchase the same drugs.</div>",
+                "",
+                "Introduction to Economics",
+                ""
+            ],
+            "guid": "xAc$*.Y|7d",
+            "note_model_uuid": "3ae74c5a-ab71-11ea-9e11-b1d281d697cf",
+            "tags": [
+                "Category::Exercise",
+                "Delay::01",
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div> <div>The chapter defines private enterprise as a characteristic of market-oriented economies. What would public enterprise be?</div></div>",
+                "<div>Public enterprise means the factors of production (resources and businesses) are owned and operated by the government.</div>",
+                "",
+                "Introduction to Economics",
+                ""
+            ],
+            "guid": "oh>G[m`~wJ",
+            "note_model_uuid": "3ae74c5a-ab71-11ea-9e11-b1d281d697cf",
+            "tags": [
+                "Category::Exercise",
+                "Delay::01",
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div> <div>Why might Belgium, France, Italy, and Sweden have a higher export to GDP ratio than the United States?</div></div>",
+                "<div>The United States is a large country economically speaking, so it has less need to trade internationally than the other countries mentioned. (This is the same reason that France and Italy have lower ratios than Belgium or Sweden.) One additional reason is that each of the other countries is a member of the European Union, where trade between members occurs without barriers to trade, like tariffs and quotas.</div>",
+                "",
+                "Introduction to Economics",
+                ""
+            ],
+            "guid": "mXa;MY#Y[T",
+            "note_model_uuid": "3ae74c5a-ab71-11ea-9e11-b1d281d697cf",
+            "tags": [
+                "Category::Exercise",
+                "Delay::01",
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                " <div><div> <div>What is the difference between microeconomics and macroeconomics?&nbsp;</div></div></div>",
+                "<div>Microeconomics focuses of individual actors within an economy, whereas macroeconomics focuses on the economy as a whole, or the sum of all individual actions.</div>",
+                "",
+                "Introduction to Economics",
+                ""
+            ],
+            "guid": "F2Lg4UfL[L",
+            "note_model_uuid": "3ae74c5a-ab71-11ea-9e11-b1d281d697cf",
+            "tags": [
+                "Category::Exercise",
+                "Delay::01",
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                " <div><div> <div>What are examples of individual economic agents?</div></div></div>",
+                "<div>Individuals, households and businesses are all economic agents.</div>",
+                "",
+                "Introduction to Economics",
+                ""
+            ],
+            "guid": "q6ZjWp=<DW",
+            "note_model_uuid": "3ae74c5a-ab71-11ea-9e11-b1d281d697cf",
+            "tags": [
+                "Category::Exercise",
+                "Delay::01",
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                " <div><div> <div>How did John Maynard Keynes define economics?</div></div></div>",
+                "<div>As a method of thinking that helps people draw correct conclusions.</div>",
+                "",
+                "Introduction to Economics",
+                ""
+            ],
+            "guid": "Ew%MTa:nC4",
+            "note_model_uuid": "3ae74c5a-ab71-11ea-9e11-b1d281d697cf",
+            "tags": [
+                "Category::Exercise",
+                "Delay::01",
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                " <div> <div><div> <div>What are the three ways that societies can organize themselves economically?&nbsp;</div></div></div></div>",
+                "<div>As a traditional economy, command economy, or a market economy.</div>",
+                "",
+                "Introduction to Economics",
+                ""
+            ],
+            "guid": "x,ObMM;RKg",
+            "note_model_uuid": "3ae74c5a-ab71-11ea-9e11-b1d281d697cf",
+            "tags": [
+                "Category::Question",
+                "Delay::01",
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                " <div> <div><div> <div>How do you think globalization might have affected small economies over the past decade?</div></div></div></div>",
+                "<div>Globalization has allowed small economies to take fuller advantage of the division of labor.</div>",
+                "",
+                "Introduction to Economics",
+                ""
+            ],
+            "guid": "if@6V,)R)D",
+            "note_model_uuid": "3ae74c5a-ab71-11ea-9e11-b1d281d697cf",
+            "tags": [
+                "Category::Exercise",
+                "Delay::01",
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                " <div> <div><div> <div>Suppose you have a team of two workers: one is a baker and one is a chef. Explain why the kitchen can produce more meals in a given period of time if each worker specializes in what they do best than if each worker tries to do everything from appetizer to dessert.</div></div></div></div>",
+                "<div>The baker and the chef have specialized skills that allow them to be more productive in certain areas than in others. The baker will be able to make a pie faster than the chef, and the chef will be better at cooking the main course. By each worker doing what he does best, productivity and efficiency are maximized and total output is greater.</div>",
+                "",
+                "Introduction to Economics",
+                ""
+            ],
+            "guid": "j89^*E$T8i",
+            "note_model_uuid": "3ae74c5a-ab71-11ea-9e11-b1d281d697cf",
+            "tags": [
+                "Category::Exercise",
+                "Delay::01",
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                " <div> <div><div> <div>Why would division of labor without trade not work?</div></div></div></div>",
+                "<div>With no trade, each individual must produce all the goods and services he wants to consume. Therefore, by definition, he cannot specialize and so he can obtain the benefits of specialization. With trade, on the other hand, by specializing on what the individual does best, he can maximize product and income and trade for whatever else he wants to consume. In short, specialization results in a net gain rather than a loss.</div>",
+                "",
+                "Introduction to Economics",
+                ""
+            ],
+            "guid": "w?hz|_;cJq",
+            "note_model_uuid": "3ae74c5a-ab71-11ea-9e11-b1d281d697cf",
+            "tags": [
+                "Category::Exercise",
+                "Delay::01",
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                " <div> <div><div> <div>Can you think of any examples of free goods, that is, goods or services that are not scarce?</div></div></div></div>",
+                "<div>Air for breathing is, in most cases, not scarce. Of course, for the scuba diver or the astronaut, this is far from the case. Even goods that are not scarce for most practical purposes can become scarce under certain circumstances.</div>",
+                "",
+                "Introduction to Economics",
+                ""
+            ],
+            "guid": "Geq!8OXXbc",
+            "note_model_uuid": "3ae74c5a-ab71-11ea-9e11-b1d281d697cf",
+            "tags": [
+                "Category::Exercise",
+                "Delay::01",
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                " <div> <div> <div><div> <div>A balanced federal budget and a balance of trade are secondary goals of macroeconomics, while growth in the standard of living (for example) is a primary goal. Why do you think that is so?&nbsp;</div></div></div></div></div>",
+                "<div>A balanced federal budget and the balance of trade do not have direct effects on the well-being of individuals. While we can argue about what their long term effects are, the standard of living (as measured by economic growth, for example) is directly responsible for how well off people are within an economy, so that is what economists care about.</div>",
+                "",
+                "Introduction to Economics",
+                ""
+            ],
+            "guid": "j.So[U5<P>",
+            "note_model_uuid": "3ae74c5a-ab71-11ea-9e11-b1d281d697cf",
+            "tags": [
+                "Category::Exercise",
+                "Delay::01",
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                " <div> <div> <div><div> <div>Macroeconomics is an aggregate of what happens at the microeconomic level. Would it be possible for what happens at the macro level to differ from how economic agents would react to some stimulus at the micro level? Hint: Think about the behavior of crowds.</div></div></div></div></div>",
+                "<div>While the macroeconomy is ultimately the sum of individual actions, we can sometimes see a different result from collective action than we do for individual action. This can happen for a number of reasons, including crowd psychology, concentrated benefits and dispersed costs, and difficulties in coordination.</div>",
+                "",
+                "Introduction to Economics",
+                ""
+            ],
+            "guid": "KQC:tcy=.#",
+            "note_model_uuid": "3ae74c5a-ab71-11ea-9e11-b1d281d697cf",
+            "tags": [
+                "Category::Exercise",
+                "Delay::01",
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                " <div> <div> <div><div> <div>Why is it unfair or meaningless to criticize a theory as “unrealistic?”</div></div></div></div></div>",
+                "<div>Economic models and the accompanying theories typically employ simplifying assumptions that, by definition, make the models less than perfectly realistic. If the models are good ones, they are still useful for understanding how a system works, in the same way that a physicist might assume an absence of friction to simplify his understanding of how a ball rolls across a surface. By making models simple, we can understand the basic mechanisms of how things like supply and demand work without having to worry too much about all the real world complications.</div>",
+                "",
+                "Introduction to Economics",
+                ""
+            ],
+            "guid": "N1%:p0$Vry",
+            "note_model_uuid": "3ae74c5a-ab71-11ea-9e11-b1d281d697cf",
+            "tags": [
+                "Category::Exercise",
+                "Delay::01",
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                " <div> <div> <div><div> <div>Suppose, as an economist, you are asked to analyze an issue unlike anything you have ever done before. Also, suppose you do not have a specific model for analyzing that issue. What should you do? Hint: What would a carpenter do in a similar situation?</div></div></div></div></div>",
+                "<div>In this situation, most economists would attempt to construct a model to describe the issue in question, using observation and reasonable assumptions. This model can then be applied to the problem to get a consistent answer.</div>",
+                "",
+                "Introduction to Economics",
+                ""
+            ],
+            "guid": "t{k8>NX=7U",
+            "note_model_uuid": "3ae74c5a-ab71-11ea-9e11-b1d281d697cf",
+            "tags": [
+                "Category::Exercise",
+                "Delay::01",
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                " <div> <div> <div><div> <div>Why do you think that most modern countries’ economies are a mix of command and market types?</div></div></div></div></div>",
+                "<div>Markets have historically been very good at creating wealth and innovation, but the governments of most modern countries have decided that certain market outcomes, for example extreme wealth inequality, are undesirable, and therefore intervene for the sake of what they view as fair or humane treatment of their citizens.</div>",
+                "",
+                "Introduction to Economics",
+                ""
+            ],
+            "guid": "BQ21-w/4R^",
+            "note_model_uuid": "3ae74c5a-ab71-11ea-9e11-b1d281d697cf",
+            "tags": [
+                "Category::Exercise",
+                "Delay::01",
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Can you think of two causes of scarcity?",
+                "Limited supply of resources and seemingly infinite human demand for goods and services.",
+                "",
+                "Introduction to Economics",
+                ""
+            ],
+            "guid": "AK8s$v?Jzs",
+            "note_model_uuid": "3ae74c5a-ab71-11ea-9e11-b1d281d697cf",
+            "tags": [
+                "Category::Exercise",
+                "Delay::01",
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the first reason why the division of labor increases an economy's level of production?",
+                "It allows the agents to focus on areas of advantage due to natural factors and skill levels.",
+                "",
+                "Introduction to Economics",
+                ""
+            ],
+            "guid": "BG?&<ATD``",
+            "note_model_uuid": "3ae74c5a-ab71-11ea-9e11-b1d281d697cf",
+            "tags": [
+                "Category::Question",
+                "Delay::01",
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the second reason why the division of labor increases an economy's level of production?",
+                "It encourages the agents to learn and invent.",
+                "",
+                "Introduction to Economics",
+                ""
+            ],
+            "guid": "P6xu$n}W+|",
+            "note_model_uuid": "3ae74c5a-ab71-11ea-9e11-b1d281d697cf",
+            "tags": [
+                "Category::Question",
+                "Delay::01",
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the third reason why the division of labor increases an economy's level of production?",
+                "It allows agents to take advantage of economies of scale.",
+                "",
+                "Introduction to Economics",
+                ""
+            ],
+            "guid": "wawHGG/./8",
+            "note_model_uuid": "3ae74c5a-ab71-11ea-9e11-b1d281d697cf",
+            "tags": [
+                "Category::Question",
+                "Delay::01",
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What are the three reasons why the division of labor increases an economy's level of production?",
+                "It allows the agents to focus on areas of advantage due to natural factors and skill levels, encourages the agents to learn and invent and allows agents to take advantage of economies of scale.",
+                "",
+                "Introduction to Economics",
+                ""
+            ],
+            "guid": "K@%qt$cwM{",
+            "note_model_uuid": "3ae74c5a-ab71-11ea-9e11-b1d281d697cf",
+            "tags": [
+                "Category::Question",
+                "Delay::01",
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What does economics seek to solve?",
+                "The problem of scarcity.",
+                "",
+                "Introduction to Economics",
+                ""
+            ],
+            "guid": "Ow?!,_11vj",
+            "note_model_uuid": "3ae74c5a-ab71-11ea-9e11-b1d281d697cf",
+            "tags": [
+                "Category::Question",
+                "Delay::01",
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the key activity that makes division and specialization of labor work?",
+                "Trade.",
+                "",
+                "Introduction to Economics",
+                ""
+            ],
+            "guid": "Jp$//GTWe~",
+            "note_model_uuid": "3ae74c5a-ab71-11ea-9e11-b1d281d697cf",
+            "tags": [
+                "Category::Question",
+                "Delay::01",
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Why is trade the key activity that makes division and specialization of labor work?",
+                "It allows individuals to purchase what they do not produce of themselves in markets.",
+                "",
+                "Introduction to Economics",
+                ""
+            ],
+            "guid": "icx*}@5Xt,",
+            "note_model_uuid": "3ae74c5a-ab71-11ea-9e11-b1d281d697cf",
+            "tags": [
+                "Category::Question",
+                "Delay::01",
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "How do people earn income in most modern economies?",
+                "People earn income by specializing in what they produce.",
+                "",
+                "Introduction to Economics",
+                ""
+            ],
+            "guid": "mx(%59x<H:",
+            "note_model_uuid": "3ae74c5a-ab71-11ea-9e11-b1d281d697cf",
+            "tags": [
+                "Category::Question",
+                "Delay::01",
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "In a modern economy what do people do with their incomes?",
+                "People use their incomes to purchase the products they need or want.",
+                "",
+                "Introduction to Economics",
+                ""
+            ],
+            "guid": "5f0@<+y[L",
+            "note_model_uuid": "3ae74c5a-ab71-11ea-9e11-b1d281d697cf",
+            "tags": [
+                "Category::Question",
+                "Delay::01",
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the perspective on the economy that focuses on the small scale?",
+                "Microeoconomics.",
+                "",
+                "Introduction to Economics",
+                ""
+            ],
+            "guid": "CH>t:4VG.9",
+            "note_model_uuid": "3ae74c5a-ab71-11ea-9e11-b1d281d697cf",
+            "tags": [
+                "Category::Question",
+                "Delay::01",
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the perspective on the economy that focuses on the large scale?",
+                "Macroeconomics.",
+                "",
+                "Introduction to Economics",
+                ""
+            ],
+            "guid": "J_(H?554%P",
+            "note_model_uuid": "3ae74c5a-ab71-11ea-9e11-b1d281d697cf",
+            "tags": [
+                "Category::Question",
+                "Delay::01",
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What are the two different perspectives on the economy?",
+                "Microeconomics and macroeconomics.",
+                "",
+                "Introduction to Economics",
+                ""
+            ],
+            "guid": "J>DHCASSf^",
+            "note_model_uuid": "3ae74c5a-ab71-11ea-9e11-b1d281d697cf",
+            "tags": [
+                "Category::Question",
+                "Delay::01",
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the first part of the economy the microeconomic perspective focuses on?",
+                "Individuals.",
+                "",
+                "Introduction to Economics",
+                ""
+            ],
+            "guid": "zFV=C&lF.e",
+            "note_model_uuid": "3ae74c5a-ab71-11ea-9e11-b1d281d697cf",
+            "tags": [
+                "Category::Question",
+                "Delay::01",
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the second part of economy the microeconomic perspective focuses on?",
+                "Firms.",
+                "",
+                "Introduction to Economics",
+                ""
+            ],
+            "guid": "yPLpc5_l+k",
+            "note_model_uuid": "3ae74c5a-ab71-11ea-9e11-b1d281d697cf",
+            "tags": [
+                "Category::Question",
+                "Delay::01",
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the third part of the economy the microeconomic perspective focuses on?",
+                "Industries.",
+                "",
+                "Introduction to Economics",
+                ""
+            ],
+            "guid": "miFd]Lr!?:",
+            "note_model_uuid": "3ae74c5a-ab71-11ea-9e11-b1d281d697cf",
+            "tags": [
+                "Category::Question",
+                "Delay::01",
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What are the three parts of economy the microeconomic perspective focuses on?",
+                "Individuals, firms, and industries.",
+                "",
+                "Introduction to Economics",
+                ""
+            ],
+            "guid": "OJF]>t7!^",
+            "note_model_uuid": "3ae74c5a-ab71-11ea-9e11-b1d281d697cf",
+            "tags": [
+                "Category::Question",
+                "Delay::01",
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the first goal that macroeconomics tends to focus on?",
+                "Growth in standard of living.",
+                "",
+                "Introduction to Economics",
+                ""
+            ],
+            "guid": "zJj&?7(>kx",
+            "note_model_uuid": "3ae74c5a-ab71-11ea-9e11-b1d281d697cf",
+            "tags": [
+                "Category::Question",
+                "Delay::01",
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the second goal that macroeconomics tends to focus on?",
+                "Low unemployment.",
+                "",
+                "Introduction to Economics",
+                ""
+            ],
+            "guid": "C^m3OA|5,5",
+            "note_model_uuid": "3ae74c5a-ab71-11ea-9e11-b1d281d697cf",
+            "tags": [
+                "Category::Question",
+                "Delay::01",
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the third goal that macroeconomics tends to focus on?",
+                "Low inflation.",
+                "",
+                "Introduction to Economics",
+                ""
+            ],
+            "guid": "oT&.:bN2X^",
+            "note_model_uuid": "3ae74c5a-ab71-11ea-9e11-b1d281d697cf",
+            "tags": [
+                "Category::Question",
+                "Delay::01",
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What are the three goals that the macroeconomic perspective tends to focus on?",
+                "Growth in standard of living, low unemployment, and low inflation.",
+                "",
+                "Introduction to Economics",
+                ""
+            ],
+            "guid": "c6R=?Xy|&=",
+            "note_model_uuid": "3ae74c5a-ab71-11ea-9e11-b1d281d697cf",
+            "tags": [
+                "Category::Question",
+                "Delay::01",
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the first type of policy that macroeconomics uses for pursuing various goals?",
+                "Monetary policy.",
+                "",
+                "Introduction to Economics",
+                ""
+            ],
+            "guid": "i![&/F54z@",
+            "note_model_uuid": "3ae74c5a-ab71-11ea-9e11-b1d281d697cf",
+            "tags": [
+                "Category::Question",
+                "Delay::01",
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the second type of policy that macroeconomics uses for pursuing various goals?",
+                "Fiscal policy.",
+                "",
+                "Introduction to Economics",
+                ""
+            ],
+            "guid": "zA{a#o>M8W",
+            "note_model_uuid": "3ae74c5a-ab71-11ea-9e11-b1d281d697cf",
+            "tags": [
+                "Category::Question",
+                "Delay::01",
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What are the two types of policies that macroeconomics uses for pursuing various goals?",
+                "Monetary policy and fiscal policy.",
+                "",
+                "Introduction to Economics",
+                ""
+            ],
+            "guid": "g^7%li[jB6",
+            "note_model_uuid": "3ae74c5a-ab71-11ea-9e11-b1d281d697cf",
+            "tags": [
+                "Category::Question",
+                "Delay::01",
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::Model::Expression}}: {{c2::A simplified&nbsp;applied or empirical representation of how two or more variable interact with each other.::Definition}}",
+                "",
+                "",
+                "Introduction to Economics",
+                ""
+            ],
+            "guid": "cReo}lApTX",
+            "note_model_uuid": "3ae74d95-ab71-11ea-9e11-b1d281d697cf",
+            "tags": [
+                "Category::Question",
+                "Delay::01",
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What are used to test theories?",
+                "Models.",
+                "",
+                "Introduction to Economics",
+                ""
+            ],
+            "guid": "M[]yUA0$F$",
+            "note_model_uuid": "3ae74c5a-ab71-11ea-9e11-b1d281d697cf",
+            "tags": [
+                "Category::Question",
+                "Delay::01",
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Are households primarily buyers or sellers in the goods and services market?",
+                "Households are primarily buyers in the goods and services market.",
+                "",
+                "Introduction to Economics",
+                ""
+            ],
+            "guid": "fW</kx_oSY",
+            "note_model_uuid": "3ae74c5a-ab71-11ea-9e11-b1d281d697cf",
+            "tags": [
+                "Category::Question",
+                "Delay::01",
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Are households primarily buyers or sellers in the labor market?",
+                "Households are typically sellers in the labor market.",
+                "",
+                "Introduction to Economics",
+                ""
+            ],
+            "guid": "fFUtA`x|~$",
+            "note_model_uuid": "3ae74c5a-ab71-11ea-9e11-b1d281d697cf",
+            "tags": [
+                "Category::Question",
+                "Delay::01",
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Are firms primarily buyers or sellers in the goods and services market?",
+                "Sellers.",
+                "",
+                "Introduction to Economics",
+                ""
+            ],
+            "guid": "OpQ8H%I#QM",
+            "note_model_uuid": "3ae74c5a-ab71-11ea-9e11-b1d281d697cf",
+            "tags": [
+                "Category::Question",
+                "Delay::01",
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Are firms primarily buyers or sellers in the labor market?",
+                "Firms are primarily buyers in the labor market.",
+                "",
+                "Introduction to Economics",
+                ""
+            ],
+            "guid": "mj}f-P])|T",
+            "note_model_uuid": "3ae74c5a-ab71-11ea-9e11-b1d281d697cf",
+            "tags": [
+                "Category::Question",
+                "Delay::01",
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "When firms pay for labor and other resources, what does this become for households?",
+                "Wages and other factor payments.",
+                "",
+                "Introduction to Economics",
+                ""
+            ],
+            "guid": "y9H!^U}O3}",
+            "note_model_uuid": "3ae74c5a-ab71-11ea-9e11-b1d281d697cf",
+            "tags": [
+                "Category::Question",
+                "Delay::01",
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is a theory not useful for?",
+                "Creating an illustration of the answer to a problem.",
+                "",
+                "Introduction to Economics",
+                ""
+            ],
+            "guid": "Nhw,IfIT_1",
+            "note_model_uuid": "3ae74c5a-ab71-11ea-9e11-b1d281d697cf",
+            "tags": [
+                "Category::Question",
+                "Delay::01",
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is a theory a useful tool for?",
+                "As a tool for determining the answer.",
+                "",
+                "Introduction to Economics",
+                ""
+            ],
+            "guid": "p-3Z$Ik3bx",
+            "note_model_uuid": "3ae74c5a-ab71-11ea-9e11-b1d281d697cf",
+            "tags": [
+                "Category::Question",
+                "Delay::01",
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the first type of economy that we can use to organize a society?",
+                "A traditional economy.",
+                "",
+                "Introduction to Economics",
+                ""
+            ],
+            "guid": "O[I/.#ArS8",
+            "note_model_uuid": "3ae74c5a-ab71-11ea-9e11-b1d281d697cf",
+            "tags": [
+                "Category::Question",
+                "Delay::01",
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the second type of economy that we can use to organize a society?",
+                "A command economy.",
+                "",
+                "Introduction to Economics",
+                ""
+            ],
+            "guid": "MD$O4HN9Rq",
+            "note_model_uuid": "3ae74c5a-ab71-11ea-9e11-b1d281d697cf",
+            "tags": [
+                "Category::Question",
+                "Delay::01",
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the third type of economy that we can use to organize a society?",
+                "A market-oriented economy",
+                "",
+                "Introduction to Economics",
+                ""
+            ],
+            "guid": "C3KlVjRO(`",
+            "note_model_uuid": "3ae74c5a-ab71-11ea-9e11-b1d281d697cf",
+            "tags": [
+                "Category::Question",
+                "Delay::01",
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What has caused globalization to become more prominent in the last few decades?",
+                "The growth in commercial and financial networks that cross national borders.",
+                "",
+                "Introduction to Economics",
+                ""
+            ],
+            "guid": "E3D*{}qK/G",
+            "note_model_uuid": "3ae74c5a-ab71-11ea-9e11-b1d281d697cf",
+            "tags": [
+                "Category::Question",
+                "Delay::01",
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What does globalization do to businesses and workers from different economies?",
+                "It makes them more interdependent.",
+                "",
+                "Introduction to Economics",
+                ""
+            ],
+            "guid": "GCG+ZeTW[Y",
+            "note_model_uuid": "3ae74c5a-ab71-11ea-9e11-b1d281d697cf",
+            "tags": [
+                "Category::Question",
+                "Delay::01",
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Draw a circular flow diagram consisting of households and firms and their interactions.",
+                "<img src=\"626d1c7cf155ffff8f72475d68ac15fe4da4eb75.jpg\">",
+                "",
+                "Introduction to Economics",
+                ""
+            ],
+            "guid": "Oi3Nl(8eeX",
+            "note_model_uuid": "3ae74c5a-ab71-11ea-9e11-b1d281d697cf",
+            "tags": [
+                "Category::Question",
+                "Delay::01",
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Can you think of a way that globalization has helped people economically?",
+                "Some people may have benefited from the inexpensive and diverse goods made available through global trade.",
+                "",
+                "",
+                ""
+            ],
+            "guid": "G!|eF(B#f;",
+            "note_model_uuid": "3ae74c5a-ab71-11ea-9e11-b1d281d697cf",
+            "tags": [
+                "Category::Question",
+                "Delay::01",
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Can you think of a way that globalization has hurt people economically?",
+                "Some people have lost jobs or opportunities due to competition from producers in foreign countries.",
+                "",
+                "",
+                ""
+            ],
+            "guid": "i$,)/cSy_L",
+            "note_model_uuid": "3ae74c5a-ab71-11ea-9e11-b1d281d697cf",
+            "tags": [
+                "Category::Question",
+                "Delay::01",
+                "Source::Openstax::Principles_Of_Economics::01_Introduction_To_Economics"
+            ]
+        }
+    ]
+}
